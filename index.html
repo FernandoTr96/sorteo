@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SORTEO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/assets/corona-de-navidad.png" type="image/x-icon">
+</head>
+
+<body>
+    <div id="tombola">
+        <div id="registro"></div>
+        <div id="controles">
+            <h1>Número ganador</h1>
+            <div id="numero">?</div>
+            <div id="botones-controles">
+                <button id="botonGenerar" onclick="buscarGanador()">Generar Número</button>
+                <button id="botonAtras" onclick="revertirGanador()">Volver atras</button>
+                <button id="botonReinicio" onclick="reiniciarSorteo()">Reiniciar sorteo</button>
+            </div>
+        </div>
+    </div>
+    <script src="lib/conffeti-library.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
